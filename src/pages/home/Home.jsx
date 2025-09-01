@@ -1,11 +1,9 @@
-import React from 'react'
+import Biografia from '../../components/Biografia'
 import './Home.css'
-function home() {
+function Home() {
   return (
-    <div>
-      <h1>homesalmfndksnfkljdssbfljsdkbflkdsb</h1>
-    </div>
+    <Biografia/>
   )
 }
 
-export default home
+export default Home

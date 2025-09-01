@@ -8,10 +8,10 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="navbar-custom" fixed="top">
       <Container>
-        <Navbar.Brand as={Link} to='/home'>GS</Navbar.Brand>
+        <Navbar.Brand className='logo' as={Link} to='/home'>GS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link as={Link} to='/home'>Home</Nav.Link>
             <NavDropdown title="Técnico" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
