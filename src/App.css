@@ -99,3 +99,51 @@ button:hover {
   height: 100%;
   border: none;
 }
+.container-atv{
+  border: 2px solid #6f42c1;
+}
+.container-atv {
+  border: 3px solid #6f42c1;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #191527;
+}
+
+.prefixo {
+  display: block;       
+  color: #6f42c1;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.resto {
+  color: white;
+  margin: 0;
+}
+
+
+.conteudo-atv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.botao-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.docx-container {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 500px;
+  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+  background: white;
+}
