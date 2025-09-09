@@ -1,5 +1,4 @@
 import Biografia from '../../components/Biografia'
-import './Home.css'
 import PortfoliosAntigos from '../../components/PortfoliosAntigos'
 function Home() {
   return (
