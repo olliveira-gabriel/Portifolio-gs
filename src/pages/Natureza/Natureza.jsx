@@ -96,7 +96,7 @@ function Natureza() {
             <p className="resto">Fazer essa atividade foi interessante, pois deu pra perceber o quanto as proteínas são importantes para o funcionamento do corpo. Cada doença tem uma relação direta com a falta ou problema em alguma proteína.</p>
           </>
         }
-        LinkAtv="https://docs.google.com/document/d/e/2PACX-1vQ5dHmQUqwgcmXAX575qxklqKEHVlKSMhnulgTafbYDui8aNajwiyyWdqNYhQ1lhbfh912xzFsGtG5I/pub  "
+        LinkAtv="https://docs.google.com/document/d/e/2PACX-1vQ5dHmQUqwgcmXAX575qxklqKEHVlKSMhnulgTafbYDui8aNajwiyyWdqNYhQ1lhbfh912xzFsGtG5I/pub"
       />
       <h1 className='bio-texto'>Segundo Trimestre</h1>
       <AtividadeCanva
