@@ -6,6 +6,8 @@ import Natureza from './pages/Natureza/Natureza.jsx';
 import Humanas from './pages/Humanas.jsx';
 import Matematica from './pages/Matematica.jsx';
 import Linguagens from './pages/Linguagens.jsx';
+import DesenvolvimentoSistemas from './pages/DesenvolvimentoSistemas.jsx';
+import BancoDados from './pages/BancoDados.jsx';
 
 import './App.css'
 
@@ -21,6 +23,8 @@ function App() {
       <Route path="/humanas" element={<Humanas/>} />
       <Route path="/matematica" element={<Matematica/>} />
       <Route path="/linguagens" element={<Linguagens/>} />
+      <Route path="/desenvolvimento-de-sistemas" element={<DesenvolvimentoSistemas/>} />
+      <Route path="/banco-de-dados" element={<BancoDados/>} />
     </Routes>
 
   </Router>

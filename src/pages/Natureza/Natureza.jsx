@@ -3,7 +3,6 @@ import AtividadeYoutube from "../../components/AtividadeYoutube"
 import AtividadeDocx from "../../components/AtividadeDocx"
 import AtividadeImg from "../../components/AtividadeImg"
 import ImgSite from "../../assets/img-natureza/magnetismo.PNG"
-
 import Container from "react-bootstrap/esm/Container"
 
 function Natureza() {
@@ -41,24 +40,24 @@ function Natureza() {
 
 
       <AtividadeYoutube
-        TituloAtv="Mapa Mental Eletrostática"
+        TituloAtv="Vídeo Estequiometria"
         VideoId="qOuNngrAEJM"
         AssuntoAtv={
           <>
             <span className="prefixo">Assunto:</span>
-            <p className="resto">Eletrostática</p>
+            <p className="resto">Estequiometria</p>
           </>
         }
         Competencias={
           <>
             <span className="prefixo">Habilidades desenvolvidas:</span>
-            <p className="resto">H29, H30 e H31.</p>
+            <p className="resto">H29, H30 e H31</p>
           </>
         }
         ObjetivoAtv={
           <>
             <span className="prefixo">Objetivo da atividade:</span>
-            <p className="resto">Compreender os conceitos da eletrostática.</p>
+            <p className="resto">Compreender os conceitos de Estequiometria com a indústria do Brasil</p>
           </>
         }
         ComentarioPessoal={
@@ -97,6 +96,34 @@ function Natureza() {
           </>
         }
         LinkAtv="https://docs.google.com/document/d/e/2PACX-1vQ5dHmQUqwgcmXAX575qxklqKEHVlKSMhnulgTafbYDui8aNajwiyyWdqNYhQ1lhbfh912xzFsGtG5I/pub"
+      />
+      <AtividadeCanva
+        TituloAtv="mapa mental eletrostática"
+        AssuntoAtv={
+          <>
+            <span className="prefixo">Assunto:</span>
+            <p className="resto">eletrostática</p>
+          </>
+        }
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto">H29, H30 e H31</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto">compreender os conceitos da eletrostática.</p>
+          </>
+        }
+        ComentarioPessoal={
+          <>
+            <span className="prefixo">Crítica pessoal:</span>
+            <p className="resto">Poderia ter mais exemplos práticos para conectar ainda melhor a teoria com aplicações do dia a dia, deixando o conteúdo ainda mais interessante.</p>
+          </>
+        }
+        LinkAtv="https://www.canva.com/design/DAGyazrswGE/E9wzmGwCumZ4FzEBlYFfJg/view?embed"
       />
       <h1 className='bio-texto'>Segundo Trimestre</h1>
       <AtividadeCanva
