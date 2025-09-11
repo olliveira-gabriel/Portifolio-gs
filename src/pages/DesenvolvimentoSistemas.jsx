@@ -51,7 +51,7 @@ function DesenvolvimentoSistemas() {
             <p className="resto">Gostei da atividade, foi interessante falar sobre as vacinas, e ajudou o mapa mental ajudou a memorizar o conteúdo</p>
           </>
         }
-        LinkAtv="https://www.canva.com/design/DAGiqgdQbXw/JleD4KKvJ7cLRDnfrIfK1g/view?embed"
+        LinkAtv="https://www.canva.com/design/DAGiBSdVkqA/YDclNfKuqdvpC16eWv1BtA/view?embed"
       />
       <h1 className='bio-texto'>Segundo Trimestre</h1>
         <AtividadeImg
