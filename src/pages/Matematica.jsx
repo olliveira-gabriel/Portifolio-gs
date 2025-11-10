@@ -56,6 +56,7 @@ function Matematica() {
                 LinkAtv="https://docs.google.com/document/d/e/2PACX-1vR7gPK_90D81v1xK0oMV7x10LTsT_a3aIASjPzcwiOxhjwXljegh8O-iMfcSjzhq1jjmGthhuo7SVvV/pub"
             
             />
+            <h1 className='bio-texto'>Segundo Trimestre</h1>
             <AtividadeCanva
         TituloAtv="Análise de dados"
         AssuntoAtv={
@@ -78,6 +79,30 @@ function Matematica() {
         }
         LinkAtv="https://www.canva.com/design/DAGyf32jFl8/EdwIO17Oujzp-LIzcscoRg/view?embed"
       />
+      <h1 className='bio-texto'>Terceiro Trimestre</h1>
+        <AtividadeCanva
+        TituloAtv="Bolo de caneca"
+        AssuntoAtv={
+          <>
+            <span className="prefixo">Assunto:</span>
+            <p className="resto">Proporção</p>
+          </>
+        }
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto">C5 - H33</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto">A atividade consistiu em aplicar o conceito matemático de proporção por meio da adaptação de uma receita de bolo de caneca. Em grupo, pesquisamos a receita original para uma porção e recalculamos as quantidades necessárias para o número de integrantes. Depois, preparamos o bolo usando micro-ondas, registramos o processo e avaliamos se as proporções estavam corretas. Por fim, apresentamos os resultados com tabela de ingredientes, cálculos e reflexão sobre o que aprendemos.</p>
+          </>
+        }
+        LinkAtv="https://www.canva.com/design/DAG4BvQZDKU/pkHCvE4GyxN-8cF74qnIMQ/view?embed"
+      />
+
         </Container>
     </div>
   )

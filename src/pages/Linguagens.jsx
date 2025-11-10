@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/esm/Container'
 import ImgRedacao from '../assets/img-linguagens/redacao.png'
 import ImgPadlet from '../assets/img-linguagens/comentario.jpg'
 import ImgVZ from '../assets/img-linguagens/VZ.png'
+import ImgRedacao2 from '../assets/img-linguagens/redacao enem.png'
 import AtividadeCanva from '../components/AtividadeCanva'
 import AtividadeDocx from '../components/AtividadeDocx'
 
@@ -241,7 +242,7 @@ function Linguagens() {
         AssuntoAtv={
           <>
             <span className="prefixo">Assunto:</span>
-            <p className="resto">Proteínas</p>
+            <p className="resto">Artista</p>
           </>
         }
         Competencias={
@@ -263,6 +264,32 @@ function Linguagens() {
           </>
         }
         LinkAtv="https://docs.google.com/document/d/e/2PACX-1vScxYpI2Efm6wfNpqk3YCx-8jTfqX9Q4iK-dVuW0dw9yROBy9m3FwC-Jqq3mWAye2m2wcvy7eT0WKXR/pub"
+      />
+      <h1 className='bio-texto'>Terceiro Trimestre</h1>
+      <AtividadeImg
+        TituloAtv="Redação Enem"
+        ImgAtv={ImgRedacao2}
+        AssuntoAtv={
+          <>
+            <span className="prefixo">Assunto:</span>
+            <p className="resto"> Desafios para combater o racismo ambiental no Brasil</p>
+          </>
+        }
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto">  H6 - H8</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto"> A atividade consistiu em produzir uma redação sobre o tema “Desafios para combater o racismo ambiental no Brasil”, como preparação para o ENEM. O objetivo foi desenvolver argumentação crítica sobre as desigualdades ambientais que afetam principalmente comunidades vulneráveis, analisando causas, consequências e possíveis soluções.</p>
+          </>
+        }
+
+        LinkAtv="https://sites.google.com/estudante.sesisenai.org.br/informa-enem-22/in%C3%ADcio?pli=1"
+      
       />
 
     </Container>

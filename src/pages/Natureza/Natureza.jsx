@@ -4,6 +4,7 @@ import AtividadeDocx from "../../components/AtividadeDocx"
 import AtividadeImg from "../../components/AtividadeImg"
 import ImgSite from "../../assets/img-natureza/magnetismo.PNG"
 import Container from "react-bootstrap/esm/Container"
+import ImgPadlet from "../../assets/img-natureza/padlet.png"
 
 function Natureza() {
   return (
@@ -210,6 +211,54 @@ function Natureza() {
           </>
         }
         LinkAtv="https://sites.google.com/estudante.sesisenai.org.br/site-magnetismo/v%C3%ADdeos-explicativos-e-curiosidades?authuser=0&pli=1"
+      
+      />
+      <h1 className='bio-texto'>Terceiro Trimestre</h1>
+      <AtividadeCanva
+        TituloAtv="Passado, Presente e Futuro"
+        AssuntoAtv={
+          <>
+            <span className="prefixo">Assunto:</span>
+            <p className="resto">Eletricidade</p>
+          </>
+        }
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto"> C5 - H24, H25, H26, H27, H28</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto">A atividade consistiu em escolher um equipamento do dia a dia que usa energia e explicar de forma simples como ele funciona e para que serve e sua evolução com o tempo.</p>
+          </>
+        }
+
+        LinkAtv="https://www.canva.com/design/DAGz45zyOT4/PaIpoFwfkzlt_8FcmUY0Lg/view?embed"
+      />
+      <AtividadeImg
+        TituloAtv="Magnetismo"
+        ImgAtv={ImgPadlet}
+        AssuntoAtv={
+          <>
+            <span className="prefixo">Assunto:</span>
+            <p className="resto">Controle de ph e condutividade</p>
+          </>
+        }
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto">C5 - H24, H25, H26, H27, H28</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto">A atividade consistiu em uma pesquisa em grupo sobre métodos de purificação utilizados na indústria. Cada grupo estudou um método específico, identificando seu princípio de funcionamento, equipamentos utilizados e principais aplicações, especialmente na extração de óleos essenciais.</p>
+          </>
+        }
+        LinkAtv="https://padlet.com/romuelsilva/trabalhos-3a-x9g8c2ybggrprlju?frame_id=page%3AAYqftY9LL3WFETgVRjzxJ"
       
       />
     </Container>
