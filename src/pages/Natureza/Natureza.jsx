@@ -261,6 +261,23 @@ function Natureza() {
         LinkAtv="https://padlet.com/romuelsilva/trabalhos-3a-x9g8c2ybggrprlju?frame_id=page%3AAYqftY9LL3WFETgVRjzxJ"
       
       />
+              <AtividadeYoutube
+        TituloAtv="Destilação por Arraste a Vapor"
+        VideoId="igfmLOran00?si=H6MDEJ4oxCFDRrNE"
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto">C5 - H24, H25, H26, H27, H28</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto">A atividade consistiu na produção de um vídeo de 2 a 3 minutos explicando o processo de destilação por arraste a vapor utilizando plantas aromáticas como alecrim, lavanda e manjericão. No vídeo, foi necessário apresentar as características dessas plantas, mostrar como ocorre a extração dos óleos essenciais e destacar suas aplicações em áreas como cosméticos, terapias e produtos de limpeza.</p>
+          </>
+        }
+      />
+
     </Container>
 
     

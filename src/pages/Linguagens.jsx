@@ -8,6 +8,7 @@ import ImgVZ from '../assets/img-linguagens/VZ.png'
 import ImgRedacao2 from '../assets/img-linguagens/redacao enem.png'
 import AtividadeCanva from '../components/AtividadeCanva'
 import AtividadeDocx from '../components/AtividadeDocx'
+import AtividadeYoutube from '../components/AtividadeYoutube'
 
 function Linguagens() {
   return (
@@ -290,6 +291,38 @@ function Linguagens() {
 
         LinkAtv="https://sites.google.com/estudante.sesisenai.org.br/informa-enem-22/in%C3%ADcio?pli=1"
       
+      />
+       <AtividadeDocx
+        TituloAtv="Carta de intenção"
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto">H4 - H16 - H15</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto"> A atividade consistiu na produção de uma Carta de Intenção solicitando ingresso em uma instituição de ensino superior. O objetivo foi desenvolver a escrita formal e a capacidade de argumentar de maneira clara e objetiva sobre a escolha de um curso e de uma universidade.</p>
+          </>
+        }
+        LinkAtv="https://docs.google.com/document/d/e/2PACX-1vQvM5_-2Y01IsJwPDEdDBFbIiSyPP-Xu4OX6YRUgiJs3tfArhHSdVaGHvJAWuxdMb0QecSA6pZ94m1U/pub"
+      />
+        <AtividadeYoutube
+        TituloAtv="Reel Literário: Primeiro de abril: narrativas da cadeia"
+        VideoId="SI3xNomfDaQ?si=NMP7IpT0WTsibVgo"
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto">H4 - H16 - H15</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto">A atividade consistiu na criação de um reel/vídeo curto (30 a 60 segundos) baseado na obra Primeiro de abril: narrativas da cadeia, de Salim Miguel. Cada estudante escolheu um local de Florianópolis citado no livro e produziu um vídeo mostrando o espaço atual, relacionando-o ao contexto histórico e narrativo da obra.</p>
+          </>
+        }
       />
 
     </Container>
