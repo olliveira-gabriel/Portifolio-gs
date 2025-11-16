@@ -4,6 +4,7 @@ import AtividadeCanva from '../components/AtividadeCanva'
 import AtividadeImg from '../components/AtividadeImg'
 import AtividadeDocx from '../components/AtividadeDocx'
 import ImgFigma from '../assets/img-tecnico/Figma.png'
+import ImgBarbearia from '../assets/img-tecnico/Barbearia.png'
 
 function DesenvolvimentoSistemas() {
   return (
@@ -70,6 +71,24 @@ function DesenvolvimentoSistemas() {
           </>
         }
         LinkAtv="https://www.figma.com/design/XjsNTo38jiJkwaVvhEPuwM/EcoVigia?node-id=4-2&t=DQ7wYfmijtU2lqFk-1"
+      
+      />
+        <AtividadeImg
+        TituloAtv="Barbearia Corte Fino"
+        ImgAtv={ImgBarbearia}
+        Competencias={
+          <>
+            <span className="prefixo">Habilidades desenvolvidas:</span>
+            <p className="resto">H1 - H2 - H3 - H4 - H6 - H7</p>
+          </>
+        }
+        ObjetivoAtv={
+          <>
+            <span className="prefixo">Objetivo da atividade:</span>
+            <p className="resto">A atividade consiste em escolher um projeto, documentá-lo, desenvolver o sistema completo (frontend, backend e banco), e depois adicionar erros de propósito. O código é publicado no GitHub em duas branches: uma funcional e outra com erros. Outro grupo irá analisar, corrigir e documentar esses erros. No final, cada equipe entrega o repositório original, o repositório corrigido e a documentação com as correções realizadas.</p>
+          </>
+        }
+        LinkAtv="https://docs.google.com/document/d/1ciZiOvdSJlHUrZAQdLVXuzY7cgUuhYd36R7PNw0xa60/edit?usp=sharing"
       
       />
      </Container>
