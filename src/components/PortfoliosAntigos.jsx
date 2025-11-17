@@ -3,7 +3,7 @@ import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import ImgPort from "../assets/img-tecnico/Portifólio.png";
 import ImgPort2 from "../assets/img-tecnico/Port2.png";
-import "../app.css";
+
 
 function PortfoliosAntigos(props) {
   return (
@@ -23,7 +23,7 @@ function PortfoliosAntigos(props) {
           <img src={ImgPort2} />
           <button
             className="btn-curriculo"
-            onClick={() => window.open(props.LinkAtv, "_blank")}
+            onClick={() => window.open(props.LinkAtv2, "_blank")}
           >
             Ver portfólio
           </button>
